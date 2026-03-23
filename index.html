@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aaradhya Web Studio - premium glass UI website with modern animations and business-ready sections." />
+  <title>Aaradhya Web Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <img src="logo.png" class="logo" onclick="openLogo()">
+        <span>
+          <strong>Aaradhya Web Studio</strong>
+          <small>Glass UI • Motion • Web Design</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="navMenu">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <canvas id="particleCanvas"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="pill">Built for GitHub Pages • HTML + CSS + JavaScript</span>
+          <h1>
+            We design <span class="gradient-text">modern websites</span> with premium motion and glass UI.
+          </h1>
+          <p>
+            Aaradhya Web Studio is a next-level web presence template for portfolios, business pages,
+            and creative studios. Clean structure, elegant gradients, and smooth interactions.
+          </p>
+
+          <div class="typing-line">
+            We build <span id="typingText" class="typing-color"></span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Start Project</a>
+            <a href="#portfolio" class="btn">View Work</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong data-count="42">0</strong>
+              <span>Projects</span>
+            </div>
+            <div class="stat">
+              <strong data-count="18">0</strong>
+              <span>Clients</span>
+            </div>
+            <div class="stat">
+              <strong data-count="99">0</strong>
+              <span>Quality</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="glass-card">
+            <div class="card-top">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="mini-label">Live Studio Preview</span>
+            </div>
+
+            <div class="preview-block">
+              <h3>Premium Brand Feel</h3>
+              <p>Gradient glow, layered glass surfaces, and clean spacing.</p>
+            </div>
+
+            <div class="preview-block">
+              <h3>Interactive UX</h3>
+              <p>Scroll reveal, FAQ toggle, theme save, and testimonial slider.</p>
+            </div>
+
+            <div class="preview-block">
+              <h3>Deployment Ready</h3>
+              <p>Simple static structure, perfect for GitHub Pages or hosting.</p>
+            </div>
+
+            <div class="tag-row">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Glass UI</span>
+              <span>Motion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Services</h2>
+          <p>Professional web experiences with modern visuals and practical business structure.</p>
+        </div>
+
+        <div class="cards grid-3">
+          <article class="card reveal">
+            <div class="icon">01</div>
+            <h3>Business websites</h3>
+            <p>Clean, trustworthy, and conversion-focused websites for small businesses and studios.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon">02</div>
+            <h3>Portfolio websites</h3>
+            <p>Elegant showcase pages with filters, animated cards, and a premium presentation style.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="icon">03</div>
+            <h3>We build <span id="typingText"></span> pages</h3>
+            <p>High-impact landing pages built to guide attention and improve engagement.</p>
+          </article>
+        </div>
+
+        <div class="feature-strip reveal">
+          <div class="aws-badge">
+            <svg viewBox="0 0 128 128" fill="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="awsGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#ff9900"></stop>
+                  <stop offset="100%" stop-color="#f59e0b"></stop>
+                </linearGradient>
+              </defs>
+              <path d="M28 74.5h72c10 0 18-8 18-18 0-9.1-6.8-16.5-15.6-17.8C99.3 24.9 84 13 65.8 13 47 13 31.1 25.8 28.2 43.8 17.9 45.4 10 54.2 10 65c0 10.5 7.5 19.5 18 22" stroke="url(#awsGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M33 85h62" stroke="url(#awsGrad)" stroke-width="7" stroke-linecap="round"/>
+              <path d="M43 98h42" stroke="url(#awsGrad)" stroke-width="7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <strong>AWS-style cloud badge</strong>
+            <p>Useful as a tech identity element for hosting, cloud, or digital service branding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Portfolio</h2>
+          <p>Filterable showcase cards with a polished visual hierarchy.</p>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="ui">UI</button>
+          <button class="filter-btn" data-filter="brand">Brand</button>
+        </div>
+
+        <div class="cards grid-3">
+          <article class="card project reveal" data-type="web">
+            <span class="meta">Website</span>
+            <h3>Studio landing page</h3>
+            <p>Hero-first layout with CTA, services, and conversion-ready structure.</p>
+          </article>
+
+          <article class="card project reveal" data-type="ui">
+            <span class="meta">UI</span>
+            <h3>Glass dashboard</h3>
+            <p>Layered cards, subtle shadows, and motion-driven premium interface design.</p>
+          </article>
+
+          <article class="card project reveal" data-type="brand">
+            <span class="meta">Brand</span>
+            <h3>Tech identity system</h3>
+            <p>Logo-ready visual language for startup or creator brand presentation.</p>
+          </article>
+
+          <article class="card project reveal" data-type="web">
+            <span class="meta">Website</span>
+            <h3>Multi-page business site</h3>
+            <p>Home, services, pricing, FAQ, and contact sections arranged professionally.</p>
+          </article>
+
+          <article class="card project reveal" data-type="ui">
+            <span class="meta">UI</span>
+            <h3>Animated cards</h3>
+            <p>Reveal animation and hover lift effects to create a premium feel.</p>
+          </article>
+
+          <article class="card project reveal" data-type="brand">
+            <span class="meta">Brand</span>
+            <h3>AWS-inspired visual</h3>
+            <p>Cloud-shaped badge for a more recognizable and technology-focused look.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Pricing</h2>
+          <p>Simple starter pricing cards for studio, freelancer, or small business offers.</p>
+        </div>
+
+        <div class="cards grid-3 pricing-grid">
+          <article class="card price reveal">
+            <span class="meta">Starter</span>
+            <h3>₹999</h3>
+            <p>Single landing page, clean design, and basic content setup.</p>
+            <ul>
+              <li>One page</li>
+              <li>Responsive layout</li>
+              <li>Basic animation</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Starter</a>
+          </article>
+
+          <article class="card price featured reveal">
+            <span class="meta">Pro</span>
+            <h3>₹2999</h3>
+            <p>Best for business websites with multiple sections and stronger branding.</p>
+            <ul>
+              <li>Multi-section site</li>
+              <li>Glass UI styling</li>
+              <li>Form + interactions</li>
+            </ul>
+            <a href="#contact" class="btn primary">Choose Pro</a>
+          </article>
+
+          <article class="card price reveal">
+            <span class="meta">Premium</span>
+            <h3>₹5999</h3>
+            <p>Advanced UI, custom interactions, and higher-end visual presentation.</p>
+            <ul>
+              <li>Custom design</li>
+              <li>Advanced features</li>
+              <li>Brand polish</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Premium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Testimonials</h2>
+          <p>Auto-rotating feedback section to build trust and premium credibility.</p>
+        </div>
+
+        <div class="testimonial card reveal">
+          <div id="testimonialText" class="testimonial-text"></div>
+          <div id="testimonialName" class="testimonial-name"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>FAQ</h2>
+          <p>Interactive accordion for a better user experience.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-q">Is this ready for GitHub Pages?</button>
+            <div class="faq-a">Yes. It is static HTML, CSS, and JavaScript, so it can be deployed directly.</div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-q">Can I add more pages?</button>
+            <div class="faq-a">Yes. You can reuse the same style and script files for about, services, portfolio, and contact pages.</div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-q">Does the theme save automatically?</button>
+            <div class="faq-a">Yes. The selected light or dark theme is saved in local storage.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p>A simple contact form with ready structure for email or WhatsApp integration.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="card form reveal" id="contactForm">
+            <input type="text" id="name" placeholder="Your name" />
+            <input type="email" id="email" placeholder="Your email" />
+            <textarea id="message" placeholder="Tell us about your project"></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+
+          <div class="card contact-box reveal">
+            <h3>Quick connect</h3>
+            <p>Replace the demo number and email with your own details.</p>
+            <div class="contact-actions">
+              <a class="btn" href="mailto:yourmail@example.com">Email</a>
+              <a class="btn primary" href="https://wa.me/9561851358" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+            <div class="mini-tags">
+              <span>Responsive</span>
+              <span>Modern UI</span>
+              <span>Fast loading</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Aaradhya Web Studio. Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <div id="logoModal" class="logo-modal" onclick="closeLogo()">
+  <img src="logo.png" class="logo-big">
+</div>
+  
+</body>
+</html>
