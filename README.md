@@ -7,13 +7,13 @@
 
 🌐 Live Demo
 
-👉 "Click Here to View Website" (https://yourusername.github.io/aaradhya-web-studio/)
+👉 "Click Here to View Website" (https://rk727617.github.io/Aaradhya_Web_Studio-/
 
 ---
 
 📸 Website Preview
 
-"Preview" (https://via.placeholder.com/800x400.png?text=Aaradhya+Web+Studio)
+"https://rk727617.github.io/Aaradhya_Web_Studio-/
 
 ---
 
